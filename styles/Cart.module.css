@@ -1,0 +1,13 @@
+.cartContent {
+  height: 800px;
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.price {
+  font-size: x-large;
+  text-align: center;
+}

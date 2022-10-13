@@ -1,0 +1,172 @@
+{
+  "DishCategories": [
+    {
+      "id": 1,
+      "type": "Biriyani",
+      "items": [
+        {
+          "id": 2,
+          "name": "Chicken Biriyani",
+          "price": 180,
+          "image": "Chicken-Biriyani"
+        },
+        {
+          "id": 3,
+          "name": "Mutton Biriyani",
+          "price": 210,
+          "image": "Mutton-Biriyani"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Pizza",
+      "items": [
+        {
+          "id": 5,
+          "name": "Chicken Pizza",
+          "price": 120,
+          "image": "Chicken-Pizza"
+        },
+        {
+          "id": 6,
+          "name": "Mutton Pizza",
+          "price": 180,
+          "image": "Mutton-Pizza"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "Burger",
+      "items": [
+        {
+          "id": 8,
+          "name": "Chicken Burger",
+          "price": 90,
+          "image": "Chicken-Burger"
+        },
+        {
+          "id": 9,
+          "name": "Mutton Burger",
+          "price": 120,
+          "image": "Mutton-Burger"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "Rolls",
+      "items": [
+        {
+          "id": 11,
+          "name": "Chicken Roll",
+          "price": 80,
+          "image": "Chicken-Roll"
+        },
+        {
+          "id": 12,
+          "name": "Mutton Roll",
+          "price": 100,
+          "image": "Mutton-Roll"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "Momos",
+      "items": [
+        {
+          "id": 14,
+          "name": "Veg Momo",
+          "price": 60,
+          "image": "Veg-Momo"
+        },
+        {
+          "id": 15,
+          "name": "Chicken Momo",
+          "price": 80,
+          "image": "Chicken-Momo"
+        },
+        {
+          "id": 16,
+          "name": "Paneer Momo",
+          "price": 70,
+          "image": "Paneer-Momo"
+        },
+        {
+          "id": 17,
+          "name": "Soya Momo",
+          "price": 60,
+          "image": "Soya-Momo"
+        },
+        {
+          "id": 18,
+          "name": "Pan Fried Momo",
+          "price": 120,
+          "image": "Pan-Fried-Momo"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "type": "Sandwitch",
+      "items": [
+        {
+          "id": 20,
+          "name": "Tortas",
+          "price": 110,
+          "image": "Tortas"
+        },
+        {
+          "id": 21,
+          "name": "Panini",
+          "price": 120,
+          "image": "Panini"
+        },
+        {
+          "id": 22,
+          "name": "Grilled Cheese",
+          "price": 120,
+          "image": "Grilled-Cheese"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "type": "Shake",
+      "items": [
+        {
+          "id": 24,
+          "name": "Mango Shake",
+          "price": 60,
+          "image": "Mango-Shake"
+        },
+        {
+          "id": 25,
+          "name": "Pudina Shake",
+          "price": 60,
+          "image": "Pudina-Shake"
+        },
+        {
+          "id": 26,
+          "name": "Chocolate Shake",
+          "price": 80,
+          "image": "Chocolate-Shake"
+        },
+        {
+          "id": 27,
+          "name": "strawberry Shake",
+          "price": 70,
+          "image": "strawberry-Shake"
+        },
+        {
+          "id": 28,
+          "name": "Milk Shake",
+          "price": 80,
+          "image": "Milk-Shake"
+        }
+      ]
+    }
+  ]
+}

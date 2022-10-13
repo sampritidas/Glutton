@@ -1,0 +1,56 @@
+.categories {
+  padding-left: 20px;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 20px;
+  overflow: auto;
+}
+
+.items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  margin: 10px;
+  background-color: rgb(44, 24, 24);
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.item:hover {
+  background-color: rgb(89, 49, 49);
+}
+
+.item p {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.itemDetails {
+  width: 30%;
+}
+
+.add {
+  display: flex;
+  width: 55%;
+  justify-content: flex-end;
+}
+
+.add button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background-color: antiquewhite;
+  color: black;
+}
+
+.add button:hover {
+  font-weight: bolder;
+  border: 2px solid black;
+}
