@@ -3,7 +3,7 @@ import { createContext, useState } from "react";
 const CartContext = createContext({
   cartItems : [],
   totalItems : 0,
-  addItems : (itemMeetup) => {},
+  addItems : (item) => {},
   removeItems : (itemID) => {},
   isItemInCart : (itemId) => {}
 })
@@ -11,20 +11,20 @@ const CartContext = createContext({
 export function CartContextProvider(props) {
   const [cartItems, setCartItems] = useState([]);
 
-  function addItemsHandler(itemMeetup) {
+  function addItemsHandler(item) {
     setCartItems((prevCartState) => {
-      return prevCartState.concat(itemMeetup);
+      return prevCartState.concat(item);
     })
   }
 
-  function removeItemsHandler(meetupId) {
+  function removeItemsHandler(itemId) {
     setCartItems((prevCartState) => {
-      return prevCartState.filter(meetup => meetup.id !== meetupId)
+      return prevCartState.filter(item => item.id !== itemId)
     })
   }
 
-  function isItemInCartHandler(meetupId) {
-    return cartItems.some(meetup => meetup.id === meetupId);
+  function isItemInCartHandler(itemId) {
+    return cartItems.some(item => item.id === itemId);
   }
 
   const context = {

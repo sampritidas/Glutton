@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useContext } from "react";
 import CartContext from "../comps/CartComponent";
-import Items from "./Items";
+import Items from "../comps/Items";
 import styles from "../styles/Cart.module.css"
 
 

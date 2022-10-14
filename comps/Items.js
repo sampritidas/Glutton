@@ -1,4 +1,4 @@
-import Item from '../../comps/Item';
+import Item from "./Item";
 
 const Items = ({items}) => {
   return ( 
@@ -10,5 +10,5 @@ const Items = ({items}) => {
     </div>
    );
 }
- 
+
 export default Items;

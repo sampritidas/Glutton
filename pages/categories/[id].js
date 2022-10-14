@@ -1,9 +1,8 @@
 import styles from '../../styles/Categories.module.css'
 import { DishCategories } from '../../db/data.json'
-import Items from '../Items';
+import Items from '../../comps/Items';
 
 export const getStaticPaths = () => {
-  // const res = await fetch('https://jsonplaceholder.typicode.com/users');
   const data = DishCategories;
 
   const paths = data.map(category => {
